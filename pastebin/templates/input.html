@@ -1,0 +1,6 @@
+<h1>Pastebin</h1>
+
+<form action="." method="post">	{% csrf_token %}
+	<input type="textarea" name="text" id="text" />
+	<input type="submit" value="Paste!" />
+</form>
